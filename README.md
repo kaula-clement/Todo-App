@@ -9,13 +9,13 @@ delete todo
 # installation
 After you cloned the repository, you want to create a virtual environment, so you have a clean python installation. You can do this by running the command
 
-*python -m venv env* :|Virtual environment
+Virtual environment command:    *python -m venv env* 
 
-*pip install django* :|Django framework
+Django framework command:   *pip install django*
 
-*pip install djangorestframework* : |our rest framework
+our rest framework command:   *pip install djangorestframework* 
 
-*python manage.py runserver* :|Start our server
+Start our server:    *python manage.py runserver* 
 
 
 # structure
