@@ -57,12 +57,12 @@ def taskUpdate(request, pk):
 
 @api_view(['DELETE'])
 def taskDelete(request, pk):
-	
 	task = Task.objects.get(id=pk)
 	user=request.user
 	if task.owner != user:
 		return Response('You are not owner')
-	task.delete()
+	else:
+		task.delete()
 	return Response('Item succsesfully delete!')
 
 
